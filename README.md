@@ -1,0 +1,1 @@
+# angular-i18n-demo
