@@ -1,0 +1,12 @@
+{
+    "MAIN_PAGES_HOME": {
+        "DAYS": "Days",
+        "MONTHS": "Months",
+        "DATES": "Date Formats",
+        "NUMBERS": "Numbers",
+        "CURRENCY": "Currency",
+        "PLURAL": "Plural",
+        "GENDER": "Gender",
+        "MESSAGE": "{GENDER, select, male{He} female{She} other{They}} saw {COUNT, plural, =0{no one} one{1 person} other{# people}} on the {FLOOR, selectordinal, one{#st} two{#nd} few{#rd} other{#th}} floor."
+    }
+}

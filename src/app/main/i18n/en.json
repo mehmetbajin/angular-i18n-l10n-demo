@@ -1,0 +1,5 @@
+{
+    "MAIN": {
+        "TITLE": "Language: {{language}} | Locale: {{locale}}"
+    }
+}

@@ -1,0 +1,16 @@
+<div class="container">
+
+  <div class="page-header">
+    <h1 translate="MAIN.TITLE"
+        translate-value-language="{{vm.language}}"
+        translate-value-locale="{{vm.locale}}"></h1>
+  </div>
+
+  <div ui-view="toolbar"></div>
+
+  <div class="row">
+    <div class="col-lg-2" ui-view="navigation"></div>
+    <div class="col-lg-10" ui-view="content"></div>
+  </div>
+
+</div>

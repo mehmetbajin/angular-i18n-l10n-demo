@@ -1,0 +1,12 @@
+{
+  "MAIN_PAGES_HOME": {
+    "DAYS": "Günler",
+    "MONTHS": "Aylar",
+    "DATES": "Tarih Biçimleri",
+    "NUMBERS": "Numaralar",
+    "CURRENCY": "Para Birimleri",
+    "PLURAL": "Çoğullama",
+    "GENDER": "Cinsiyet",
+    "MESSAGE": "{GENDER, select, male{O} female {O} other{Onlar}} {FLOOR, selectordinal, one{#.} two{#.} few{#.} other{#.}} katta {COUNT, plural, =0{sıfır kişi} one{1 kişi} other{# kişi}} {GENDER, select, male{gördü} female {gördü} other{gördüler}}."
+  }
+}

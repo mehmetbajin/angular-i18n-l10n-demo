@@ -1,0 +1,12 @@
+{
+  "TOOLBAR": {
+    "DEMO": "Demo",
+    "SUBMIT": "Gönder",
+    "SEARCH": "Arama",
+    "LOCALE": "Yerel Ayar",
+    "LANGUAGE": "Dil",
+    "ENGLISH": "İngilizce",
+    "TURKISH": "Türkçe",
+    "QUERY_NOTIFICATION": "'{{query}}' için arama yapıyorsunuz"
+  }
+}

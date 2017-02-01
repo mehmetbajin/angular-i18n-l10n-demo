@@ -1,0 +1,85 @@
+<div class="row">
+
+  <div class="col-lg-3">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span translate="MAIN_PAGES_HOME.NUMBERS"></span>
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li ng-repeat="n in vm.numbers">{{n | number}}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span translate="MAIN_PAGES_HOME.CURRENCY"></span>
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li ng-repeat="c in vm.currencies">{{c | currency}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span translate="MAIN_PAGES_HOME.DAYS"></span>
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li ng-repeat="d in vm.days">{{d | date:'EEEE'}}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span translate="MAIN_PAGES_HOME.MONTHS"></span>
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li ng-repeat="m in vm.months">{{m | date:'MMMM'}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span translate="MAIN_PAGES_HOME.DATES"></span>
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li ng-repeat="f in vm.formats">{{vm.now | date:f}}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <span translate="MAIN_PAGES_HOME.PLURAL"></span>
+        /
+        <span translate="MAIN_PAGES_HOME.GENDER"></span>
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li translate="MAIN_PAGES_HOME.MESSAGE"
+              translate-values="{ GENDER: 'male', COUNT: 1, FLOOR: 2 }"
+              translate-interpolation="messageformat"></li>
+          <li translate="MAIN_PAGES_HOME.MESSAGE"
+              translate-values="{ GENDER: 'female', COUNT: 1, FLOOR: 3 }"
+              translate-interpolation="messageformat"></li>
+          <li translate="MAIN_PAGES_HOME.MESSAGE"
+              translate-values="{ COUNT: 2, FLOOR: 5 }"
+              translate-interpolation="messageformat"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>

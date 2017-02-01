@@ -1,0 +1,58 @@
+{
+  "name": "angular-i18n-l10n-demo",
+  "version": "1.0.0",
+  "description": "Angular app illustrating i18n/l10n concepts.",
+  "scripts": {
+    "start": "http-server -c-1 & open http://localhost:8080/src/",
+    "translate": "gulp translate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehmetbajin/angular-i18n-l10n-demo.git"
+  },
+  "keywords": [
+    "angular",
+    "internationalization",
+    "i18n",
+    "localization",
+    "l10n"
+  ],
+  "author": "Mehmet Bajin <mehmet@toptal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehmetbajin/angular-i18n-l10n-demo/issues"
+  },
+  "homepage": "https://github.com/mehmetbajin/angular-i18n-l10n-demo#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-preset-latest": "^6.22.0",
+    "bluebird": "^3.4.7",
+    "dotenv": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-json-format": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.8",
+    "lodash": "^4.17.4",
+    "map-stream": "0.0.6",
+    "mstranslator": "^2.1.1",
+    "require-dir": "^0.3.1",
+    "stream-browserify": "^2.0.1",
+    "traverse": "^0.6.6",
+    "vinyl-transform": "^1.0.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-dynamic-locale": "^0.1.32",
+    "angular-i18n": "^1.6.1",
+    "angular-sanitize": "^1.6.1",
+    "angular-translate": "^2.13.1",
+    "angular-translate-interpolation-messageformat": "^2.13.1",
+    "angular-translate-loader-partial": "^2.13.1",
+    "angular-ui-router": "^0.4.2",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "messageformat": "^1.0.2"
+  }
+}

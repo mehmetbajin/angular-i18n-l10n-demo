@@ -1,0 +1,12 @@
+{
+    "TOOLBAR": {
+        "DEMO": "Demo",
+        "SUBMIT": "Submit",
+        "SEARCH": "Search",
+        "LOCALE": "Locale",
+        "LANGUAGE": "Language",
+        "ENGLISH": "English",
+        "TURKISH": "Turkish",
+        "QUERY_NOTIFICATION": "You are querying for '{{query}}'"
+    }
+}

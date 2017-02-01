@@ -1,0 +1,49 @@
+<nav class="navbar navbar-default">
+
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" translate="TOOLBAR.DEMO"></a>
+    </div>
+
+    <div class="collapse navbar-collapse">
+
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" ng-model="vm.query" translate translate-attr-placeholder="TOOLBAR.SEARCH">
+        </div>
+        <span translate="TOOLBAR.QUERY_NOTIFICATION" translate-value-query="{{vm.query}}"></span>
+      </form>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <span translate="TOOLBAR.LOCALE"></span>
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#" translate="TOOLBAR.ENGLISH" ng-click="vm.changeLocale('en')"></a></li>
+            <li><a href="#" translate="TOOLBAR.TURKISH" ng-click="vm.changeLocale('tr')"></a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <span translate="TOOLBAR.LANGUAGE"></span>
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#" translate="TOOLBAR.ENGLISH" ng-click="vm.changeLanguage('en')"></a></li>
+            <li><a href="#" translate="TOOLBAR.TURKISH" ng-click="vm.changeLanguage('tr')"></a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</nav>
