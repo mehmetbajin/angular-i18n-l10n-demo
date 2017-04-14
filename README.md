@@ -1,6 +1,8 @@
 
 # angular-i18n-l10n-demo
 
+## [Demo](https://angular-i18n-l10n-demo.firebaseapp.com/src/)
+
 ## Getting Started
 
 This demo app requires `http-server` to be installed globally:
